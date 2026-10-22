@@ -16,6 +16,6 @@ clean:
 
 up: 
 	- docker run --name router -d --rm --privileged router-${SUFFIX}
-	- docker run --name host -d --rm host-${SUFFIX}
+	- docker run --name host -d  --rm host-${SUFFIX}
 
 re: build down clean up
