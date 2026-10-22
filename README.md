@@ -12,3 +12,8 @@ cd `/srv/badass/` and this time add your git ssh key in the VM, don't forget to 
 since we host gns3 on an ubuntu server we lack graphical interface. we can simply use the host machine graphical interface as a client to connect to the server constantly running on the badass vm. 
 
 download and run `gns3` on your host machine and enter server ip `100.114.215.99` and port `3080`, for the password just `cat` the gns3 server config file in the vm located at `.config/GNS3/2.2/gns3_server.conf`
+
+
+## architecture
+
+![P1](src/architecture-p1.png))
