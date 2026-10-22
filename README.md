@@ -16,4 +16,4 @@ download and run `gns3` on your host machine and enter server ip `100.114.215.99
 
 ## architecture
 
-![P1](src/architecture-p1.png))
+![P1](src/architecture-p1.png)
