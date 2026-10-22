@@ -4,7 +4,7 @@ ssh `user@badass` if MagicDNS is not set you can use the VM ip `user@100.114.215
 
 # how to work on badass
 
-cd `/srv/badass/` and add your ssh key in the VM
+cd `/srv/badass/` and this time add your git ssh key in the VM, don't forget to create your own branch
 
 
 # how to connect to gns3
