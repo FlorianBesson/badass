@@ -10,7 +10,7 @@ ip link set br0 up
 ip link set eth1 master br0
 ip link set eth1 up
 
-# 4. create dynamic vxlan
+# 4. create multicast vxlan
 ip link add vxlan0 type vxlan \
   id 10 \
   local 10.0.0.2 \
