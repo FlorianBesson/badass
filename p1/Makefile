@@ -7,12 +7,7 @@ build:
 	docker build -t host-${SUFFIX} -f host.dockerfile .
 
 down:
-	- docker stop router
-	- docker stop host
-
-clean:
-	- docker rm router
-	- docker rm host
+	- docker stop $$(docker ps -q)
 
 up: 
 	- docker run --name router -d --rm --privileged router-${SUFFIX}
