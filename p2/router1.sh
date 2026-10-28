@@ -11,7 +11,7 @@ ip link set eth1 master br0
 ip link set eth1 up
 
 # 4. create static vxlan
-ip link add vxlan10 type vxlan \
+ip link add vxlan0 type vxlan \
   id 10 \
   local 10.0.0.1 \
   remote 10.0.0.2 \
